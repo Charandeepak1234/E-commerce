@@ -14,7 +14,6 @@ import {
 import Slide from "@mui/material/Slide";
 import { motion } from "framer-motion";
 import { BsExclamation } from "react-icons/bs";
-import profilePic from "./profilePic2.1.png";
 import Footer from "./Footer";
 
 const ReadmeComponent = () => {
@@ -67,7 +66,7 @@ const ReadmeComponent = () => {
             <div className="flex flex-row justify-between items-center h-16">
               <Typography variant="h6">
                 <span className="text-blue-500 hover:underline text-base md:text-lg">
-                  <a href="https://github.com/MMansy19/E-Commerce-Website">
+                  <a href="">
                     𝐀𝐩𝐩 𝐑𝐞𝐚𝐝𝐦𝐞
                   </a>
                 </span>
@@ -75,19 +74,10 @@ const ReadmeComponent = () => {
 
               <IconButton>
                 <a
-                  href="https://github.com/MMansy19"
+                  href=""
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <Avatar
-                    alt="Mahmoud Mansy"
-                    src={profilePic}
-                    sx={{
-                      width: isMobile ? "60px" : "70px",
-                      height: "auto",
-                      border: "2px solid #3B82F6",
-                    }}
-                  />
                 </a>
               </IconButton>
             </div>
